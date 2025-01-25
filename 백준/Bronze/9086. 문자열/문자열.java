@@ -10,5 +10,6 @@ public class Main {
             System.out.print(s.charAt(0));
             System.out.println(s.charAt((s.length() - 1)));
         }
+        sc.close();
     }
 }
