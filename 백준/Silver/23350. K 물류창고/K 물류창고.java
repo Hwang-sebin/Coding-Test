@@ -69,10 +69,6 @@ public class Main {
                     // 높은 우선순위 → 레일 뒤로
                     mainBelt.add(c);
                     time += c.weight;
-                } else {
-                    // 낮은 우선순위 → 그냥 적재
-                    loadSpace.push(c);
-                    time += c.weight;
                 }
             }
         }
